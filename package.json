@@ -1,0 +1,16 @@
+{
+  "name": "test-el",
+  "version": "1.0.0",
+  
+  "description": "",
+  "author": "",
+  
+  "main": "main.js",
+  "scripts": {
+    "test": "node -c main.js",
+    "start": "electron --no-sandbox --enable-transparent-visuals ."
+  },
+  "dependencies": {
+    "electron": "^8.2.3"
+  }
+}
